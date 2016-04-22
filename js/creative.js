@@ -7,6 +7,13 @@
 (function($) {
     "use strict"; // Start of use strict
 
+    $(window).load(function() {
+        setTimeout(function() {
+            $('#loadgif').fadeOut(1000);
+        }, 2000)
+
+    })
+
     // jQuery for page scrolling feature - requires jQuery Easing plugin
     $('a.page-scroll').bind('click', function(event) {
         var $anchor = $(this);
