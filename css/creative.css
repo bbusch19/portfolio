@@ -56,7 +56,7 @@ p {
 }
 
 .no-scroll {
-    overflow: hidden;
+    overflow-y: hidden;
 }
 
 .my-av {
