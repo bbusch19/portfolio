@@ -155,7 +155,7 @@ p {
 
 #loadgif {
     width: 100%;
-    height: 100vh;
+    /*height: 100vh;*/
     background: black;
     z-index: 20;
     position: fixed;
