@@ -10,6 +10,7 @@
     $(window).load(function() {
         setTimeout(function() {
             $('body').removeClass('no-scroll');
+            $('main').removeClass('no-scroll');
             $('#loadgif').fadeOut(1000);
         }, 2000)
 
