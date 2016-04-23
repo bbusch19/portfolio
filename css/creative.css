@@ -55,6 +55,10 @@ p {
     background-color: #151617;
 }
 
+.no-scroll {
+    overflow: hidden;
+}
+
 .my-av {
     width: 250px;
     height: 250px;
@@ -155,6 +159,12 @@ p {
     z-index: 20;
     position: fixed;
     top: 0;
+    bottom: 0;
+    overflow-y: hidden;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -306,8 +316,15 @@ header {
     position: relative;
     width: 100%;
     min-height: auto;
+    height: 100vh;
     text-align: center;
     color: #fff;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
     background-image: url('../img/night-camping-2.jpg');
     background-position: center;
     -webkit-background-size: cover;
