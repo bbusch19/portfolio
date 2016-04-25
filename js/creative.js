@@ -7,6 +7,15 @@
 (function($) {
     "use strict"; // Start of use strict
 
+    var mobileCheck = function() {
+        if (screen.width < 768) {
+            $('main').addClass('no-scroll-mobile')
+        } else {
+            $('body').addClass('no-scroll')
+        }
+    }
+    mobileCheck();
+
     $(window).load(function() {
         setTimeout(function() {
             $('body').removeClass('no-scroll');

@@ -58,6 +58,11 @@ p {
 .no-scroll {
     overflow-y: hidden;
     /*position: fixed;*/
+    /*height: 100%;*/
+}
+
+.no-scroll-mobile {
+    overflow-y: hidden;
     height: 100%;
 }
 
