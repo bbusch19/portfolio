@@ -19,7 +19,7 @@
     $(window).load(function() {
         setTimeout(function() {
             $('body').removeClass('no-scroll');
-            $('main').removeClass('no-scroll');
+            $('main').removeClass('no-scroll-mobile');
             $('#loadgif').fadeOut(1000);
         }, 2000)
 
