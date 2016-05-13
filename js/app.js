@@ -1,6 +1,6 @@
 angular.module('myPortfolio', ['ui.router']).config(function($stateProvider, $urlRouterProvider) {
 
-    $urlRouterProvider.otherwise('/');
+    $urlRouterProvider.otherwise('/landing');
 
     $stateProvider
 
