@@ -3,7 +3,7 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
- 
+
 
 (function($) {
     "use strict"; // Start of use strict
@@ -21,8 +21,9 @@
         setTimeout(function() {
             $('body').removeClass('no-scroll');
             $('main').removeClass('no-scroll-mobile');
+            $('.fade-fast').fadeOut(200);
             $('#loadgif').fadeOut(1000);
-        }, 2000)
+        }, 2500)
 
     })
 
